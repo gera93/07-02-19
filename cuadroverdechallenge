@@ -1,0 +1,31 @@
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255);
+  fill(255);
+  rect(170,170,50,50);
+
+  
+  
+     if(mouseIsPressed){
+
+      fill(0,255,0);
+   rect(0,0,400,400); 
+              fill(255);
+     rect(170,170,50,50); 
+     }
+  else{
+         if(mouseIsPressed){
+   mouseX = 170
+ mouseY = 170
+    fill(255);
+           rect(170,170,50,50);
+             fill(0,255,0);
+   rect(0,0,400,400);
+           
+         }
+  }
+    
